@@ -1,0 +1,314 @@
+/* General */
+@font-face
+{
+    font-family:DesigersBold;
+    src: url('desigers.ttf'), url('desigers.eot'); /* IE9+ */
+}
+
+body 
+{
+    padding:0;
+    color:Black;
+    text-align:center;
+    font-family:Cambria;
+    background:red url('images/bg.png') repeat fixed top left;
+}
+
+.master_column
+{
+    width:1000px;
+    margin:10px auto;
+    padding-top:10px;
+    /*background:#d28142 url('images/master_top.png') no-repeat;*/
+    background-color:#d28142;
+    /* CSS3 */
+    border-radius:20px;
+    -webkit-border-radius:20px;
+}
+
+.header
+{
+    height:100px;
+    margin-left:10px;
+    margin-right:10px;
+    background-color:#006db8;
+    font-size:32px;
+    font-weight:bold;
+    color:Black;
+    font-family:Georgia;
+    /* CSS3 */
+    font-family:DesigersBold;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+}
+
+.header img
+{
+    vertical-align:middle;
+    width:170px;
+    height:90px;
+    margin-top:5px;
+}
+
+.footer
+{
+   margin-top:10px;
+   padding:5px 0 10px 0;
+   border-top:2px solid black;
+   /* CSS3 */
+   border-radius:0 0 20px 20px;
+   -webkit-border-radius:0 0 20px 20px;
+}
+
+.onecolumn_left
+{
+    width:210px;
+    text-align:center;
+    padding-left:10px;
+    vertical-align:top;
+}
+
+.onecolumn_center
+{
+    width:770px;
+    vertical-align:top;
+    text-align:center;
+    padding-top:10px;
+    height:600px;
+    min-height:600px;
+    /*background:#FFF url('images/content_top.png') no-repeat top;*/
+    background-color:#FFF;
+    /* CSS3 */
+    border-radius:20px 20px 0 0;
+    -webkit-border-radius:20px 20px 0 0;
+}
+
+.onecolumn_center_footer
+{
+    /*background:#FFF url('images/content_bottom.png') no-repeat bottom;*/
+    background-color:#FFF;
+    /* CSS3 */
+    border-radius:0 0 20px 20px;
+    -webkit-border-radius:0 0 20px 20px;
+}
+
+h1
+{
+    font-family:DesigersBold;
+}
+
+/* Validation Errors */
+.validation-summary-errors
+{
+    color:Red;
+    width:75%;
+    min-height:100px;
+    padding:10px 0 10px 0;
+    margin:10px auto;
+    border:2px solid black;
+    /* CSS3 */
+    border-radius:20px;
+    -webkit-border-radius:20px;
+}
+
+.field-validation-error
+{
+    color:Red;
+}
+
+.input-validation-error
+{
+    background-color:#FFB6C1;
+    border:1px solid Red;
+}
+
+/* Left Column Modules */
+.modbody
+{
+    width:200px;
+}
+
+.modbody .modtop
+{
+    padding-top:5px;
+    font-size:18px;
+    text-align:center;
+    height:30px;
+    /*background:#77b800 url('images/mod_top.png') no-repeat top;*/
+    background-color:#77b800;
+    /* CSS3 */
+    font-family:DesigersBold;
+    border-radius:20px 20px 0 0;
+    -webkit-border-radius:20px 20px 0 0;
+}
+
+.modbody .modbody
+{
+    text-align:left;
+    min-height:50px;
+    /*background:#a4e25a url('images/mod_bottom.png') no-repeat bottom;*/
+    padding:3px 0 5px 0;
+    background-color:#a4e25a;
+    /* CSS3 */
+    border-radius:0 0 20px 20px;
+    -webkit-border-radius:0 0 20px 20px;
+}
+
+.clear
+{
+    height:15px;
+}
+
+/* Links */
+.links ul li
+{
+    margin:2px 10px 2px 0;
+}
+.links ul li a
+{
+    color:#000;
+}
+.links ul li:hover
+{
+    color:#FFF;
+    line-height:25px;
+    margin-left:-5px;
+    background-color:#77b800;
+    /* CSS3 */
+    background-color:RGBA(119,184,0,.9);
+    border-radius:10px;
+    -webkit-border-radius:10px;
+}
+.links ul li:hover a
+{
+    color:#FFF;
+    padding:5px 0;
+    padding-left:10px;
+    font-weight:bold;
+}
+/* Grid */
+.Grid
+{
+    border:2px solid black;
+    margin:auto;
+    width:97%;
+    font-size:16px;
+    /* CSS 3 */
+    border-radius:16px;
+    box-shadow:5px 5px 7px 0px #777;
+    -webkit-box-shadow:5px 5px 7px 0px #777;
+}
+
+.Grid .Header, .Grid .Footer
+{
+    background-color:#006db8;
+    padding:8px;
+    vertical-align:middle;
+    font-size:18px;
+    font-weight:bold;
+    color:Black;
+    font-family:Georgia;
+    /* CSS 3 */
+    font-family:DesigersBold;
+}
+
+.Grid thead tr:first-child td:first-child
+{
+    height:30px;
+    font-size:22px;
+    /* CSS 3 */
+    border-radius:13px 13px 0 0;
+    -webkit-border-radius:13px 13px 0 0;
+}
+
+.Grid tfoot tr:last-child td
+{
+    /* CSS 3 */
+    border-radius:0 0 13px 13px;
+    -webkit-border-radius:0 0 13px 13px;
+}
+
+.Grid td
+{
+    padding:3px;
+    border:1px solid black;
+}
+
+.Grid .Row
+{
+    background-color:#77b800;
+    vertical-align:middle;
+}
+
+.Grid .AltRow
+{
+    background-color:#a4e25a;
+    vertical-align:middle;
+}
+
+.Grid .Edit
+{
+    background-color:#0099FF;
+    vertical-align:middle;
+    padding:5px 0;
+}
+
+.button-green
+{
+    width:125px;
+    height:30px;
+    border:1px solid black;
+    background-color:#77b800;
+    color:#000;
+    /* CSS3 */
+    font-family:DesigersBold;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+}
+
+.button-green:hover, .button-green:focus
+{
+    background-color:#97b85c;
+    border:2px solid black;
+    /* CSS3 */
+    box-shadow:3px 2px 4px 0px #000;
+    -webkit-box-shadow:3px 2px 4px 0px #000;
+}
+
+.button-blue
+{
+    width:125px;
+    height:30px;
+    border:1px solid black;
+    background-color:#006db8;
+    color:#000;
+    /* CSS3 */
+    font-family:DesigersBold;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+}
+
+.button-blue:hover, .button-blue:focus
+{
+    background-color:#5c93b8;
+    border:2px solid black;
+    /* CSS3 */
+    box-shadow:3px 2px 4px 0px #000;
+    -webkit-box-shadow:3px 2px 4px 0px #000;
+}
+
+/* Login */
+
+.login .container .textbox
+{
+    width:125px;
+}
+
+/* Register */
+
+.register .complete
+{
+    
+}
+
+
